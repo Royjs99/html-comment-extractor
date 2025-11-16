@@ -1,5 +1,16 @@
 # html-comment-extractor
-Esta herramienta se encarga de realizar extracción de comentarios de archivos HTML. Es útil para la enumeración y reconocimiento de páginas web.
+Esta herramienta se encarga de realizar extracción de comentarios de archivos HTML. 
+Es útil para la enumeración y reconocimiento de páginas web.
+
+## Características
+- Manejo de errores de conexión
+- Manejo de diccionarios
+
+## Requisitos
+**requests**
+
+## Instalación
+pip3 install requests
 
 ## Uso de la herramienta
 python3 html-extract-comments.py -u http://<IP> -d /usr/share/dict.txt
